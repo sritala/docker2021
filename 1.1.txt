@@ -1,0 +1,26 @@
+
+//Docker container run 3x
+
+susanna@Susanna-MacBook-Pro docker2021 % docker container run -d nginx
+defe0df0e5fe259843880b89c82d4712fe0da40a3f0d04e901fa8e111af13d50
+susanna@Susanna-MacBook-Pro docker2021 % docker container run -d nginx
+6fe2a9250ad64ea0f26900c32c60220f39a0e28cedf2e1f1520a12bd92a12fc5
+susanna@Susanna-MacBook-Pro docker2021 % docker container run -d nginx
+b111117c17a5d12d02b6501179a2c015a5c6a260def84823b41b3771f7832654
+
+//Docker container stop 3x
+
+susanna@Susanna-MacBook-Pro docker2021 % docker container stop defe0df0e5fe259843880b89c82d4712fe0da40a3f0d04e901fa8e111af13d50
+defe0df0e5fe259843880b89c82d4712fe0da40a3f0d04e901fa8e111af13d50
+susanna@Susanna-MacBook-Pro docker2021 % docker container stop 6fe2a9250ad64ea0f26900c32c60220f39a0e28cedf2e1f1520a12bd92a12fc5
+6fe2a9250ad64ea0f26900c32c60220f39a0e28cedf2e1f1520a12bd92a12fc5
+susanna@Susanna-MacBook-Pro docker2021 % docker container stop b111117c17a5d12d02b6501179a2c015a5c6a260def84823b41b3771f7832654
+
+//Docker ps -a
+
+susanna@Susanna-MacBook-Pro docker2021 % docker ps -a
+CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS                          PORTS                               NAMES
+ba5c413632fe   nginx                    "/docker-entrypoint.…"   34 seconds ago       Exited (0) 15 seconds ago                                       hopeful_austin
+c3b48b52a550   nginx                    "/docker-entrypoint.…"   38 seconds ago       Exited (0) 3 seconds ago                                        goofy_dijkstra
+49fa80e49873   nginx                    "/docker-entrypoint.…"   About a minute ago   Up About a minute      
+

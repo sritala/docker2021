@@ -1,0 +1,16 @@
+docker run -it -d devopsdockeruh/simple-web-service:alpine
+
+susanna@Susanna-MacBook-Pro docker2021 % docker container exec -it nice_bell sh  
+
+/usr/src/app # tail -f ./text.log
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-05-19 14:57:30 +0000 UTC
+2021-05-19 14:57:32 +0000 UTC
+2021-05-19 14:57:34 +0000 UTC
+2021-05-19 14:57:36 +0000 UTC
+2021-05-19 14:57:38 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-05-19 14:57:40 +0000 UTC
+2021-05-19 14:57:42 +0000 UTC
+2021-05-19 14:57:44 +0000 UTC

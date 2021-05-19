@@ -1,0 +1,7 @@
+docker run -d -it ubuntu sh -c 'echo "Input website:"; read website;
+
+docker exec -it charming_babbage bash
+
+root@17d9fcae8051:/# apt-get update; apt-get install curl
+
+docker attach charming_babbage

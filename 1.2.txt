@@ -1,0 +1,18 @@
+
+//Docker container stop 
+susanna@Susanna-MacBook-Pro docker2021 % docker container stop c3b48b52a5508cd8d4882979c48c81061bd8fe5fccdfa45adf2e1b00226c6b77
+
+//Docker container prune 
+susanna@Susanna-MacBook-Pro docker2021 % docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+
+//Docker ps -a  
+susanna@Susanna-MacBook-Pro docker2021 % docker ps -a                      
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+docker rmi nginx:latest
+
+//Docker images 
+susanna@Susanna-MacBook-Pro docker2021 % docker images
+REPOSITORY               TAG       IMAGE ID       CREATED        SIZE

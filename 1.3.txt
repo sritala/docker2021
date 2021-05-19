@@ -1,0 +1,21 @@
+susanna@Susanna-MacBook-Pro docker2021 % docker pull devopsdockeruh/simple-web-service:ubuntu
+
+susanna@Susanna-MacBook-Pro docker2021 % docker run -it -d devopsdockeruh/simple-web-service:ubuntu
+f0ba411c3ef4caa1fafb58ab454541126d6288895a0826e5f362773bfa856792
+
+//Secret message
+
+susanna@Susanna-MacBook-Pro docker2021 % docker exec -it admiring_lumiere bash
+root@63f48cf539ea:/usr/src/app# tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-05-19 14:38:19 +0000 UTC
+2021-05-19 14:38:21 +0000 UTC
+2021-05-19 14:38:23 +0000 UTC
+2021-05-19 14:38:25 +0000 UTC
+2021-05-19 14:38:27 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-05-19 14:38:29 +0000 UTC
+2021-05-19 14:38:31 +0000 UTC
+2021-05-19 14:38:33 +0000 UTC
+2021-05-19 14:38:35 +0000 UTC
+2021-05-19 14:38:37 +0000 UTC
